@@ -1,0 +1,27 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "ServiceConsole Console Application",
+  "authors": [ "JBarry" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "ServiceConsole": "ServiceConsole"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.ServiceProcess": "4.0.0.0"
+      }
+    }
+  }
+}
